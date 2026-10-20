@@ -1,0 +1,19 @@
+# dependências e builds
+node_modules/
+.expo/
+dist/
+
+# arquivos locais de teste (não vão para o repositório)
+.tmp/
+
+# segredos
+.env
+.env.*
+!.env.example
+supabase/.env
+supabase/.temp/
+supabase/functions/.env
+
+# sistema
+.DS_Store
+Thumbs.db
